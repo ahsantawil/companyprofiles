@@ -15,20 +15,20 @@ export default class Headers extends Component {
                         </h1>
                         <nav className="nav-menu d-none d-lg-block">
                             <ul>
-                                <li className="active"><a href="index.html">Home</a></li>
+                                <li className="active"><a href="#">Home</a></li>
                                 <li className="drop-down"><a href="#">About</a>
                                     <ul>
-                                    <li><a href="pages/about/about.html">Business Profile</a></li>
-                                    <li><a href="pages/about/factory.html">Factory</a></li>
-                                    <li><a href="pages/about/testimonials.html">Honor</a></li>
-                                    <li><a href="pages/about/video.html">Videos</a></li>
+                                    <li><a href="#">Business Profile</a></li>
+                                    <li><a href="#">Factory</a></li>
+                                    <li><a href="#">Honor</a></li>
+                                    <li><a href="#">Videos</a></li>
                                     </ul>
                                 </li>
                                 <li className="drop-down"><a href="#">Services</a>
                                     <ul>
                                     <a href="#">Marketing Network</a>
                                     <a href="#">HR</a>
-                                    <a href="pages/service/contact.html">Contact Us</a>
+                                    <a href="#">Contact Us</a>
                                     <li className="drop-down"><a href="#">Social Network</a>
                                         <ul>
                                         <li><a href="http://www.sanxingelectric.com" target="_blank">Ningbo Sanxing Electric Co., Ltd</a></li>
@@ -37,8 +37,8 @@ export default class Headers extends Component {
                                     </li>
                                     </ul>
                                 </li>
-                                <li><a href="pages/product/product.html">Product</a></li>
-                                <li><a href="pages/news/blog.html">News</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">News</a></li>
                             </ul>
                         </nav>
                         <a href="#" className="get-started-btn ml-auto">Download Brochures</a>

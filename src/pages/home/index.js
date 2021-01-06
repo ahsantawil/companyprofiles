@@ -7,6 +7,8 @@ import {
 
 export default class Home extends Component {
     render() {
+
+        const source = 'https://www.youtube.com/embed/HtyPJ4Mup_g';
         return (
             <>
                 <section id="hero">
@@ -85,22 +87,22 @@ export default class Home extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                    <img src={Pln} className="img-fluid" alt />
+                                    <img src={Pln} className="img-fluid" alt="Consumers" />
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                    <img src={Amartha} className="img-fluid" alt />
+                                    <img src={Amartha} className="img-fluid" alt="Consumers" />
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                    <img src={Gps} className="img-fluid" alt />
+                                    <img src={Gps} className="img-fluid" alt="Consumers" />
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                    <img src={Aff} className="img-fluid" alt />
+                                    <img src={Aff} className="img-fluid" alt="Consumers" />
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                    <img src={Sudirman} className="img-fluid" alt />
+                                    <img src={Sudirman} className="img-fluid" alt="Consumers" />
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                    <img src={Wika} className="img-fluid" alt />
+                                    <img src={Wika} className="img-fluid" alt="Consumers" />
                                 </div>
                             </div>
                         </div>
@@ -114,7 +116,7 @@ export default class Home extends Component {
                             <div className="row">
                                 <div className="col-md-8">
                                     <div className="icon-box">
-                                        <iframe className="align-self-center" width="100%" height={400} src="https://www.youtube.com/embed/HtyPJ4Mup_g" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+                                        <iframe className="align-self-center" title="Citra Sanxing Indonesia" width="100%" height={400} src={source} frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
                                         </iframe>
                                     </div>
                                 </div>
@@ -167,7 +169,7 @@ export default class Home extends Component {
                             <div className="row portfolio-container">
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-prepaid">
                                     <div className="portfolio-wrap">
-                                        <img src={Sx} className="img-fluid" alt />
+                                        <img src={Sx} className="img-fluid" alt="Product" />
                                         <div className="portfolio-info">
                                             <h4>SX1A0</h4>
                                             <p>Meter 1phase Prabayar Generation one</p>
@@ -180,7 +182,7 @@ export default class Home extends Component {
                             </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-prepaid">
                                     <div className="portfolio-wrap">
-                                        <img src={P12A4} className="img-fluid" alt />
+                                        <img src={P12A4} className="img-fluid" alt="Product" />
                                         <div className="portfolio-info">
                                             <h4>P12A4</h4>
                                             <p>Meter 1phase Prabayar Generation Two</p>
@@ -193,7 +195,7 @@ export default class Home extends Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-prepaid">
                                     <div className="portfolio-wrap">
-                                        <img src={Csi11} className="img-fluid" alt />
+                                        <img src={Csi11} className="img-fluid" alt="Product" />
                                         <div className="portfolio-info">
                                             <h4>CSI11</h4>
                                             <p>Meter 1phase Prabayar Generation Three</p>
@@ -206,7 +208,7 @@ export default class Home extends Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-postpaid">
                                     <div className="portfolio-wrap">
-                                    <img src={Csi01} className="img-fluid" alt />
+                                    <img src={Csi01} className="img-fluid" alt="Product" />
                                         <div className="portfolio-info">
                                             <h4>CSI01</h4>
                                             <p>Meter 1phase Postpaid Generation One</p>
@@ -219,7 +221,7 @@ export default class Home extends Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-postpaid">
                                     <div className="portfolio-wrap">
-                                    <img src={Csi32} className="img-fluid" alt />
+                                    <img src={Csi32} className="img-fluid" alt="Product" />
                                         <div className="portfolio-info">
                                             <h4>CSI32</h4>
                                             <p>Meter 3Phase Postpaid AMR kWh Meter</p>
@@ -232,7 +234,7 @@ export default class Home extends Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-modem">
                                     <div className="portfolio-wrap">
-                                    <img src={modem3G} className="img-fluid" alt />
+                                    <img src={modem3G} className="img-fluid" alt="Product" />
                                         <div className="portfolio-info">
                                             <h4>CSI21</h4>
                                             <p>3G Modem Communication</p>
@@ -245,7 +247,7 @@ export default class Home extends Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-modem">
                                     <div className="portfolio-wrap">
-                                    <img src={modem4G} className="img-fluid" alt />
+                                    <img src={modem4G} className="img-fluid" alt="Product" />
                                     <div className="portfolio-info">
                                         <h4>CSI21-S</h4>
                                         <p>4G Modem Communication</p>
@@ -258,7 +260,7 @@ export default class Home extends Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-vending">
                                     <div className="portfolio-wrap">
-                                        <img src={Vending} className="img-fluid" alt />
+                                        <img src={Vending} className="img-fluid" alt="Product" />
                                         <div className="portfolio-info">
                                             <h4>Vending System</h4>
                                             <p>Sanplat Prepayment Vending System STS 1phase</p>
