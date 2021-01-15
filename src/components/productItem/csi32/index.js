@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Csi32 } from '../../../../assets'
+import { Csi32 } from '../../../assets'
 
 export default class CSI32 extends Component {
     render() {
@@ -24,7 +24,7 @@ export default class CSI32 extends Component {
                                 <li><strong>Client</strong>: PLN</li>
                                 <li><strong>SPLN</strong>: -</li>
                                 <li>
-                                <a href="#" className="btn btn-primary">Download Brochures</a>
+                                 <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
                                 </li>
                             </ul>
                             </div>

@@ -19,6 +19,7 @@ import Csi32 from './img/product/csi32.png';
 // Vending System
 import Vending from './img/product/vending2.png';
 import Vending1 from './img/product/vending1.png';
+import Vending2 from './img/product/vending1.jpg'
 import Vending3 from './img/product/vending3.png';
 
 // Modem3G
@@ -48,7 +49,7 @@ import attribute4G_8 from './img/product/datacable.jpeg';
 export {
     Logo, Pln, Aff, Amartha, Gps, Sudirman, Wika, Slide1, Slide2, Slide3,
     Sx, P12A4, Csi11, Csi01, Csi32,
-    Vending, Vending1, Vending3,
+    Vending, Vending1, Vending2, Vending3,
     modem3G, attribute3G_1, attribute3G_2, attribute3G_3, attribute3G_4,
     attribute3G_5, attribute3G_6, attribute3G_7, attribute3G_8,attribute3G_9,
     modem4G, attribute4G_1, attribute4G_2, attribute4G_3,

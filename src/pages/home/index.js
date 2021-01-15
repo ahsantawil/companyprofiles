@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import Iframe from 'react-iframe';
+import { Link } from 'react-router-dom';
 import {
     Slide1, Slide2, Slide3, Pln,
     Amartha, Gps, Aff, Sudirman, Wika, Sx,
-    P12A4, Csi11, Csi01, Csi32, Vending, modem3G, modem4G
+    P12A4, Csi11, Csi01, Csi32, Vending, modem3G, modem4G, Vending2
     } from '../../assets';
 
 export default class Home extends Component {
@@ -116,15 +118,22 @@ export default class Home extends Component {
                             <div className="row">
                                 <div className="col-md-8">
                                     <div className="icon-box">
-                                        <iframe className="align-self-center" title="Citra Sanxing Indonesia" width="100%" height={400} src={source} frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
-                                        </iframe>
+                                        <Iframe url={source}
+                                                className="align-self-center"
+                                                width="100%"
+                                                height={400}
+                                                title="Citra Sanxing Indonesia"
+                                                frameBorder={0}
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                display="initial"
+                                                position="relative" />
                                     </div>
                                 </div>
                                 <div className="col-md-4 mt-4 mt-md-0">
                                     <div className="icon-box">
                                         <i className="icofont-chart-bar-graph" />
                                         <h4>
-                                            <a href="#">Growth</a>
+                                            <Link>Growth</Link>
                                         </h4>
                                         <ul>
                                             <li>
@@ -188,7 +197,7 @@ export default class Home extends Component {
                                             <p>Meter 1phase Prabayar Generation Two</p>
                                             <div className="portfolio-links">
                                                 <a href={P12A4} data-gall="portfolioGallery" className="venobox" title="P12A4"><i className="bx bx-plus" /></a>
-                                                <a href="pages/product/details/Meter2.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                                <Link to="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -265,8 +274,8 @@ export default class Home extends Component {
                                             <h4>Vending System</h4>
                                             <p>Sanplat Prepayment Vending System STS 1phase</p>
                                             <div className="portfolio-links">
-                                                <a href={Vending} data-gall="portfolioGallery" className="venobox" title="Vending System"><i className="bx bx-plus" /></a>
-                                                <a href="pages/product/details/Vending.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Vending System Details"><i className="bx bx-link" /></a>
+                                                <a href={Vending2} data-gall="portfolioGallery" className="venobox" title="Vending System"><i className="bx bx-plus" /></a>
+                                                <Link to="/sanplat" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Vending System Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -276,7 +285,7 @@ export default class Home extends Component {
                     </section>
                 </main>
 
-                <a href="#" className="back-to-top"><i className="icofont-simple-up" /></a>
+                <a href="#top" className="back-to-top"><i className="icofont-simple-up" /></a>
             </>
         )
     }

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Vending1, Vending3, Vending } from '../../../../assets';
+import React, { Component } from 'react'
+import { Vending1, Vending3, Vending, Vending2 } from '../../../assets'
 
-export default class vending extends Component {
+export default class Sanplat extends Component {
     render() {
         return (
             <>
@@ -13,6 +13,7 @@ export default class vending extends Component {
                                 <h2 className="portfolio-title">Sanplat Vending System</h2>
                                 <div className="owl-carousel portfolio-details-carousel">
                                     <img src={Vending1} className="img-fluid" alt="Vending System" />
+                                    <img src={Vending2} className="img-fluid" alt="Vending System" />
                                     <img src={Vending3} className="img-fluid" alt="Vending System" />
                                     <img src={Vending} className="img-fluid" alt="Vending System" />
                                 </div>
@@ -28,7 +29,7 @@ export default class vending extends Component {
                                 <li>Transaction billing history</li>
                                 <li>Multifunction POS</li>
                                 <li>Support API for Microservice Architecture</li>
-                                <li><strong>Trial URL</strong>: <a href="http://139.5.149.98:8080" target="__blank">Sanplat Vending</a></li>
+                                        <li><strong>Trial URL</strong>: <a href={"http://139.5.149.98:8080"} target={"_blank"} rel={"noopener noreferrer"}>Sanplat Vending</a></li>
                             </ul>
                             <p>
                                 SanPlat prepayment is a solution in dealing with problems in billing systems with the latest technology.
@@ -49,7 +50,8 @@ export default class vending extends Component {
                                 <li>Can analyze and suppress network loses</li>
                             </ul>
                             </div>
-                        </div>
+                            </div>
+                             <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
                         </div>
                     </section>
                 </main>

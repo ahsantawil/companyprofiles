@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-import { attribute4G_1, attribute4G_2, attribute4G_3, attribute4G_4, attribute4G_5, attribute4G_6, attribute4G_7, attribute4G_8 } from '../../../../assets'
+import {
+    attribute4G_1, attribute4G_2, attribute4G_3, attribute4G_4, attribute4G_5,
+    attribute4G_6, attribute4G_7, attribute4G_8
+} from '../../../assets'
 
 export default class CSI21S extends Component {
     render() {
@@ -50,7 +53,7 @@ export default class CSI21S extends Component {
                                 <li><strong>GPS</strong></li>
                                 <li>Active GPS</li>
                                 <li>
-                                <a href="#" className="btn btn-primary">Download Brochures</a>
+                                 <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
                                 </li>
                             </ul>
                             </div>

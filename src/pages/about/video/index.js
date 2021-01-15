@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Iframe from 'react-iframe'
 
 export default class Videos extends Component {
     render() {
@@ -11,7 +13,9 @@ export default class Videos extends Component {
                             <div className="d-flex justify-content-between align-items-center">
                                 <h2>Videos</h2>
                                 <ol>
-                                <li><a href="../../index.html">Home</a></li>
+                                    <li>
+                                        <Link to="/">Home</Link>
+                                    </li>
                                 <li>Videos</li>
                                 </ol>
                             </div>
@@ -22,75 +26,49 @@ export default class Videos extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <div className="member d-flex align-items-start">
-                                        <div className="pic">
-                                            <img src="../../assets/img/team/team-1.jpg" className="img-fluid" alt />
-                                        </div>
+                                    <div className="section-title">
+                                        <h2>Citra Sanxing Indonesia</h2>
+                                    </div>
+                                    <div className="member d-flex">
                                         <div className="member-info">
-                                            <h4>Walter White</h4>
-                                            <span>Chief Executive Officer</span>
-                                            <p>Explicabo voluptatem mollitia et repellat</p>
-                                            <div className="social">
-                                                <a href><i className="ri-twitter-fill" /></a>
-                                                <a href><i className="ri-facebook-fill" /></a>
-                                                <a href><i className="ri-instagram-fill" /></a>
-                                                <a href> <i className="ri-linkedin-box-fill" /> </a>
-                                            </div>
+                                            <Iframe url="https://www.youtube.com/embed/HtyPJ4Mup_g"
+                                                width="500"
+                                                height="400"
+                                                title="Citra Sanxing Indonesia"
+                                                frameBorder={0}
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                display="initial"
+                                                position="relative" />
                                         </div>
+                                    </div>
+                                    <div className="social">
+                                        <a href><i className="ri-twitter-fill" /></a>
+                                        <a href><i className="ri-facebook-fill" /></a>
+                                        <a href><i className="ri-instagram-fill" /></a>
+                                        <a href> <i className="ri-linkedin-box-fill" /> </a>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 mt-4 mt-lg-0">
-                                    <div className="member d-flex align-items-start">
-                                        <div className="pic">
-                                            <img src="../../assets/img/team/team-2.jpg" className="img-fluid" alt />
-                                        </div>
+                                    <div className="section-title">
+                                        <h2>Ningbo Sanxing Electric Co., Ltd</h2>
+                                    </div>
+                                    <div className="member d-flex">
                                         <div className="member-info">
-                                            <h4>Sarah Jhonson</h4>
-                                            <span>Product Manager</span>
-                                            <p>Aut maiores voluptates amet et quis</p>
-                                            <div className="social">
-                                                <a href><i className="ri-twitter-fill" /></a>
-                                                <a href><i className="ri-facebook-fill" /></a>
-                                                <a href><i className="ri-instagram-fill" /></a>
-                                                <a href> <i className="ri-linkedin-box-fill" /> </a>
-                                            </div>
+                                            <Iframe url="https://www.youtube.com/embed/i0mDa_U-6I8"
+                                                width="500"
+                                                height="400"
+                                                title="Citra Sanxing Indonesia"
+                                                frameBorder={0}
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                display="initial"
+                                                position="relative" />
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-6 mt-4">
-                                    <div className="member d-flex align-items-start">
-                                        <div className="pic">
-                                            <img src="../../assets/img/team/team-3.jpg" className="img-fluid" alt />
-                                        </div>
-                                        <div className="member-info">
-                                            <h4>William Anderson</h4>
-                                            <span>CTO</span>
-                                            <p>Quisquam facilis cum velit laborum corrupti</p>
-                                            <div className="social">
-                                                <a href><i className="ri-twitter-fill" /></a>
-                                                <a href><i className="ri-facebook-fill" /></a>
-                                                <a href><i className="ri-instagram-fill" /></a>
-                                                <a href> <i className="ri-linkedin-box-fill" /> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 mt-4">
-                                    <div className="member d-flex align-items-start">
-                                        <div className="pic">
-                                            <img src="../../assets/img/team/team-4.jpg" className="img-fluid" alt />
-                                        </div>
-                                        <div className="member-info">
-                                            <h4>Amanda Jepson</h4>
-                                            <span>Accountant</span>
-                                            <p>Dolorum tempora officiis odit laborum officiis</p>
-                                            <div className="social">
-                                                <a href><i className="ri-twitter-fill" /></a>
-                                                <a href><i className="ri-facebook-fill" /></a>
-                                                <a href><i className="ri-instagram-fill" /></a>
-                                                <a href> <i className="ri-linkedin-box-fill" /> </a>
-                                            </div>
-                                        </div>
+                                    <div className="social">
+                                        <a href><i className="ri-twitter-fill" /></a>
+                                        <a href><i className="ri-facebook-fill" /></a>
+                                        <a href><i className="ri-instagram-fill" /></a>
+                                        <a href> <i className="ri-linkedin-box-fill" /> </a>
                                     </div>
                                 </div>
                             </div>

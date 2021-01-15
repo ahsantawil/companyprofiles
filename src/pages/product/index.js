@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
     Sx,
     P12A4, Csi11, Csi01, Csi32, Vending, modem3G, modem4G
     } from '../../assets';
-import { CSI01, CSI11,CSI21, CSI21S, CSI32, vending } from './details';
+import { CSI01, CSI11,CSI21, CSI21S, CSI32, Sanplat } from '../../components/productItem';
 
 export default class Product extends Component {
     render() {
@@ -15,7 +16,7 @@ export default class Product extends Component {
                             <div className="d-flex justify-content-between align-items-center">
                                 <h2>Product</h2>
                                 <ol>
-                                    <li><a href="../../index.html">Home</a></li>
+                                    <li><Link to="/">Home</Link></li>
                                     <li>Product</li>
                                 </ol>
                             </div>
@@ -43,7 +44,7 @@ export default class Product extends Component {
                                                 <p>Meter 1phase Prabayar Generation one</p>
                                                 <div className="portfolio-links">
                                                     <a href={Sx} data-gall="portfolioGallery" className="venobox" title="SX1A0"><i className="bx bx-plus" /></a>
-                                                    <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                                    <a href={Sx} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
                                                 </div>
                                             </div>
                                     </div>
@@ -56,7 +57,7 @@ export default class Product extends Component {
                                             <p>Meter 1phase Prabayar Generation Two</p>
                                             <div className="portfolio-links">
                                                 <a href={P12A4} data-gall="portfolioGallery" className="venobox" title="P12A4"><i className="bx bx-plus" /></a>
-                                                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                                <a href={P12A4} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +135,7 @@ export default class Product extends Component {
                                             <p>Sanplat Prepayment Vending System STS 1phase</p>
                                             <div className="portfolio-links">
                                                 <a href={Vending} data-gall="portfolioGallery" className="venobox" title="Vending System"><i className="bx bx-plus" /></a>
-                                                <a href={vending} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Vending System Details"><i className="bx bx-link" /></a>
+                                                <a href={Sanplat} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Vending System Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>

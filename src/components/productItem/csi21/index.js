@@ -3,7 +3,7 @@ import {
     attribute3G_1, attribute3G_2, attribute3G_3,
     attribute3G_4, attribute3G_5, attribute3G_6, attribute3G_7,
     attribute3G_8, attribute3G_9
-} from '../../../../assets';
+} from '../../../assets';
 
 export default class CSI21 extends Component {
     render() {
@@ -62,7 +62,7 @@ export default class CSI21 extends Component {
                                         <li>Merah Berkedip : Standby</li>
                                         <li>Merah Selalu ON : Hang</li>
                                         <li>
-                                        <a href="#" className="btn btn-primary">Download Brochures</a>
+                                         <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
                                         </li>
                                     </ul>
                                 </div>
