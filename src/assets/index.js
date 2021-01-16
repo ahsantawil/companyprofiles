@@ -45,6 +45,12 @@ import attribute4G_6 from './img/product/antena.jpeg';
 import attribute4G_7 from './img/product/psu.jpeg';
 import attribute4G_8 from './img/product/datacable.jpeg';
 
+// News
+import Ningbo from './img/news/ningbo.png';
+import SMK3 from './img/news/smk3.jpeg';
+import ISO from './img/news/iso1.jpeg';
+import Disjaya1 from './img/news/disjaya-1.jpg';
+
 
 export {
     Logo, Pln, Aff, Amartha, Gps, Sudirman, Wika, Slide1, Slide2, Slide3,
@@ -53,5 +59,6 @@ export {
     modem3G, attribute3G_1, attribute3G_2, attribute3G_3, attribute3G_4,
     attribute3G_5, attribute3G_6, attribute3G_7, attribute3G_8,attribute3G_9,
     modem4G, attribute4G_1, attribute4G_2, attribute4G_3,
-    attribute4G_4, attribute4G_5, attribute4G_6, attribute4G_7, attribute4G_8
+    attribute4G_4, attribute4G_5, attribute4G_6, attribute4G_7, attribute4G_8,
+    Ningbo, SMK3, ISO, Disjaya1
 };

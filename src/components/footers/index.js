@@ -75,7 +75,7 @@ export class Footers extends Component {
                                         <i className="bx bx-chevron-right" /> <Link>Aftersales</Link>
                                     </li>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <Link>Contact Us</Link>
+                                        <i className="bx bx-chevron-right" /> <Link to="/contact">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>

@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {
-    Sx,
-    P12A4, Csi11, Csi01, Csi32, Vending, modem3G, modem4G
+    Sx, P12A4, Csi11, Csi01, Csi32, Vending, modem3G, modem4G
     } from '../../assets';
-import { CSI01, CSI11,CSI21, CSI21S, CSI32, Sanplat } from '../../components/productItem';
+
 
 export default class Product extends Component {
     render() {
@@ -70,7 +69,7 @@ export default class Product extends Component {
                                             <p>Meter 1phase Prabayar Generation Three</p>
                                             <div className="portfolio-links">
                                                 <a href={Csi11} data-gall="portfolioGallery" className="venobox" title="CSI11"><i className="bx bx-plus" /></a>
-                                                <a href={CSI11} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi11" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -83,7 +82,7 @@ export default class Product extends Component {
                                         <p>Meter 1phase Postpaid Generation One</p>
                                             <div className="portfolio-links">
                                                 <a href={Csi01} data-gall="portfolioGallery" className="venobox" title="CSI01"><i className="bx bx-plus" /></a>
-                                                <a href={CSI01} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Products Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi01" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +95,7 @@ export default class Product extends Component {
                                         <p>Meter 3Phase Postpaid AMR kWh Meter</p>
                                             <div className="portfolio-links">
                                                 <a href={Csi32} data-gall="portfolioGallery" className="venobox" title="CSI32"><i className="bx bx-plus" /></a>
-                                                <a href={CSI32} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Products Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi32" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -109,7 +108,7 @@ export default class Product extends Component {
                                             <p>3G Modem Communication</p>
                                             <div className="portfolio-links">
                                                 <a href={modem3G} data-gall="portfolioGallery" className="venobox" title="CSI21"><i className="bx bx-plus" /></a>
-                                                <a href={CSI21} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Products Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi21" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +121,7 @@ export default class Product extends Component {
                                             <p>4G Modem Communication</p>
                                             <div className="portfolio-links">
                                                 <a href={modem4G} data-gall="portfolioGallery" className="venobox" title="CSI21-S"><i className="bx bx-plus" /></a>
-                                                <a href={CSI21S} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi21s" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -135,7 +134,7 @@ export default class Product extends Component {
                                             <p>Sanplat Prepayment Vending System STS 1phase</p>
                                             <div className="portfolio-links">
                                                 <a href={Vending} data-gall="portfolioGallery" className="venobox" title="Vending System"><i className="bx bx-plus" /></a>
-                                                <a href={Sanplat} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Vending System Details"><i className="bx bx-link" /></a>
+                                               <Link to="/sanplat" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>

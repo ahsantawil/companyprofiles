@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import { Brosur, Home, News, Product } from '..'
 import { Footers, Headers } from '../../components'
+import { CSI01, CSI11, CSI21, CSI21S, CSI32, Sanplat } from '../../components/productItem'
 import { Factory, Honor, Profile, Videos } from '../about'
 import { Contact } from '../services'
 
@@ -11,6 +12,24 @@ const MainApp = () => {
             <Router>
                 <Headers />
                 <Switch>
+                        <Route path="/csi11">
+                            <CSI11 />
+                        </Route>
+                        <Route path="/csi01">
+                            <CSI01 />
+                        </Route>
+                        <Route path="/csi21">
+                            <CSI21 />
+                        </Route>
+                        <Route path="/csi21s">
+                            <CSI21S />
+                        </Route>
+                        <Route path="/csi32">
+                            <CSI32 />
+                        </Route>
+                        <Route path="/sanplat">
+                            <Sanplat />
+                        </Route>
                         <Route path="/brosur">
                             <Brosur />
                         </Route>

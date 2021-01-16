@@ -184,7 +184,7 @@ export default class Home extends Component {
                                             <p>Meter 1phase Prabayar Generation one</p>
                                             <div className="portfolio-links">
                                             <a href={Sx} data-gall="portfolioGallery" className="venobox" title="SX1A0"><i className="bx bx-plus" /></a>
-                                            <a href="pages/product/details/Meter1.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                            <a href={Sx} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +197,7 @@ export default class Home extends Component {
                                             <p>Meter 1phase Prabayar Generation Two</p>
                                             <div className="portfolio-links">
                                                 <a href={P12A4} data-gall="portfolioGallery" className="venobox" title="P12A4"><i className="bx bx-plus" /></a>
-                                                <Link to="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
+                                                <a href={P12A4} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -210,7 +210,7 @@ export default class Home extends Component {
                                             <p>Meter 1phase Prabayar Generation Three</p>
                                             <div className="portfolio-links">
                                                 <a href={Csi11} data-gall="portfolioGallery" className="venobox" title="CSI11"><i className="bx bx-plus" /></a>
-                                                <a href="pages/product/details/Meter3.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi11" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -223,7 +223,7 @@ export default class Home extends Component {
                                             <p>Meter 1phase Postpaid Generation One</p>
                                             <div className="portfolio-links">
                                                 <a href={Csi01} data-gall="portfolioGallery" className="venobox" title="CSI01"><i className="bx bx-plus" /></a>
-                                                <a href="pages/product/details/Meter4.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Products Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi01" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -236,7 +236,7 @@ export default class Home extends Component {
                                             <p>Meter 3Phase Postpaid AMR kWh Meter</p>
                                             <div className="portfolio-links">
                                                 <a href={Csi32} data-gall="portfolioGallery" className="venobox" title="CSI32"><i className="bx bx-plus" /></a>
-                                                <a href="pages/product/details/Meter5.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Products Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi32" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -249,7 +249,7 @@ export default class Home extends Component {
                                             <p>3G Modem Communication</p>
                                             <div className="portfolio-links">
                                                 <a href={modem3G} data-gall="portfolioGallery" className="venobox" title="CSI21"><i className="bx bx-plus" /></a>
-                                                <a href="pages/product/details/Modem3g.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Products Details"><i className="bx bx-link" /></a>
+                                                <Link to="/csi21" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -262,7 +262,7 @@ export default class Home extends Component {
                                         <p>4G Modem Communication</p>
                                         <div className="portfolio-links">
                                         <a href={modem4G} data-gall="portfolioGallery" className="venobox" title="CSI21-S"><i className="bx bx-plus" /></a>
-                                        <a href="pages/product/details/Modem4g.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
+                                        <Link to="/csi21s" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></Link>
                                         </div>
                                     </div>
                                     </div>

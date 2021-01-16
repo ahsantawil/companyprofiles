@@ -6,6 +6,13 @@ export default class CSI32 extends Component {
         return (
             <>
                 <main id="main">
+                    <section id="breadcrumbs" className="breadcrumbs">
+                        <div className="container">
+                            <div className="d-flex justify-content-between align-items-center">
+                                <h2>Product Details</h2>
+                            </div>
+                        </div>
+                    </section>
                     <section id="portfolio-details" className="portfolio-details">
                         <div className="container">
                         <div className="row">
