@@ -43,6 +43,9 @@ export class Footers extends Component {
                                     <li>
                                         <i className="bx bx-chevron-right" /> <Link>History of Sanxing</Link>
                                     </li>
+                                    <li>
+                                        <i className="bx bx-chevron-right" /> <Link>RnD Engineer</Link>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="col-lg-2 col-md-4 footer-links">

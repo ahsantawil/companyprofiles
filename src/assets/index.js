@@ -51,6 +51,21 @@ import SMK3 from './img/news/smk3.jpeg';
 import ISO from './img/news/iso1.jpeg';
 import Disjaya1 from './img/news/disjaya-1.jpg';
 
+//Factory
+import QC from './img/factory/qc.jpg'
+import WH from './img/factory/wh.jpg'
+import AF from './img/factory/af.jpg'
+import MTC from './img/factory/mtc.jpg'
+import PT from './img/factory/pt.jpg'
+import TC from './img/factory/tc.jpg'
+
+// Honor
+import ISO9001 from './img/honor/iso9001kan.jpg'
+import ISO14001 from './img/honor/iso14001.jpg'
+import OHSAS from './img/honor/ohsas.jpg'
+import SPMCSI01 from './img/honor/spmcsi01.jpg'
+import K3 from './img/honor/smk3.jpg'
+import Modem1 from './img/honor/01-3gmodem.jpg'
 
 export {
     Logo, Pln, Aff, Amartha, Gps, Sudirman, Wika, Slide1, Slide2, Slide3,
@@ -60,5 +75,7 @@ export {
     attribute3G_5, attribute3G_6, attribute3G_7, attribute3G_8,attribute3G_9,
     modem4G, attribute4G_1, attribute4G_2, attribute4G_3,
     attribute4G_4, attribute4G_5, attribute4G_6, attribute4G_7, attribute4G_8,
-    Ningbo, SMK3, ISO, Disjaya1
+    Ningbo, SMK3, ISO, Disjaya1,
+    QC, WH, AF, MTC, PT, TC,
+    ISO9001, ISO14001, OHSAS, SPMCSI01, K3, Modem1
 };
