@@ -89,13 +89,13 @@ export default class Home extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                    <img src={Pln} className="img-fluid" alt="Consumers" />
-                                </div>
-                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                                     <img src={Amartha} className="img-fluid" alt="Consumers" />
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                                     <img src={Gps} className="img-fluid" alt="Consumers" />
+                                </div>
+                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                                    <img src={Pln} className="img-fluid" alt="Consumers" />
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                                     <img src={Aff} className="img-fluid" alt="Consumers" />

@@ -1,6 +1,8 @@
 node_modules
 template
 public/img
+.htaccess
+build.zip
 # dependencies
 /node_modules
 /.pnp
