@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {
-    Sx, P12A4, Csi11, Csi01, Csi32, Vending, modem3G, modem4G
+     Csi11, Csi01, Csi32, Vending, modem3G, modem4G
     } from '../../assets';
 
 
@@ -35,32 +35,6 @@ export default class Product extends Component {
                                 </div>
                             </div>
                             <div className="row portfolio-container">
-                                <div className="col-lg-4 col-md-6 portfolio-item filter-prepaid">
-                                    <div className="portfolio-wrap">
-                                        <img src={Sx} className="img-fluid" alt="Product" />
-                                            <div className="portfolio-info">
-                                                <h4>SX1A0</h4>
-                                                <p>Meter 1phase Prabayar Generation one</p>
-                                                <div className="portfolio-links">
-                                                    <a href={Sx} data-gall="portfolioGallery" className="venobox" title="SX1A0"><i className="bx bx-plus" /></a>
-                                                    <a href={Sx} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 portfolio-item filter-prepaid">
-                                    <div className="portfolio-wrap">
-                                        <img src={P12A4} className="img-fluid" alt="Product" />
-                                        <div className="portfolio-info">
-                                            <h4>P12A4</h4>
-                                            <p>Meter 1phase Prabayar Generation Two</p>
-                                            <div className="portfolio-links">
-                                                <a href={P12A4} data-gall="portfolioGallery" className="venobox" title="P12A4"><i className="bx bx-plus" /></a>
-                                                <a href={P12A4} data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Product Details"><i className="bx bx-link" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-prepaid">
                                     <div className="portfolio-wrap">
                                         <img src={Csi11} className="img-fluid" alt="Product" />

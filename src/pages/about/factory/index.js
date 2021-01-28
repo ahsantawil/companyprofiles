@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { AF, MTC, PT, QC, TC, WH } from '../../../assets'
+import Iframe from 'react-iframe'
 
 export default class Factory extends Component {
     render() {
@@ -156,6 +157,26 @@ export default class Factory extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div className="container">
+                            <div className="section-title">
+                                <p>Factory address</p>
+                            </div>
+                            <div>
+                                <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0323695859834!2d106.34880691449355!3d-6.259466563024899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4204cc3e4bf523%3A0x5b69581177737561!2sCITRA%20SANXING%20INDONESIA%20PT!5e0!3m2!1sid!2sid!4v1611632553288!5m2!1sid!2sid" width="100%" height={270} frameBorder={0} style={{ border: 0 }} allowFullScreen aria-hidden="false" tabIndex={0} />
+                            </div>
+                            <div className="card">
+                                <div className="card-body">
+                                    <p>
+                                        <h5>Factory address :</h5>
+                                        Jl. Raya Cikande Rangkas km 7.5 Desa Majasari/Kareo,  <br />
+                                        Kec. Kopo, Kab. Serang Banten <br />
+                                        Phone : (0254) 480 445/448
+                                    </p>
                                 </div>
                             </div>
                         </div>

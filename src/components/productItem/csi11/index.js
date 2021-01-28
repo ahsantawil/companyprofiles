@@ -34,7 +34,7 @@ export class CSI11 extends Component {
                                     <li>Fungsi 2S-Fungsi 2R</li>
                                     <li>LMK</li>
                                     <li>
-                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
+                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/1UipPnBYaFCYuglnt56H5izG6SyuBDG30/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
                                     </li>
                                 </ul>
                             </div>

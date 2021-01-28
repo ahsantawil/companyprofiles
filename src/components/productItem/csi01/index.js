@@ -32,7 +32,7 @@ export class CSI01 extends Component {
                                     <li>KELAS 1.0 3200 imp/kWh IP54</li>
                                     <li>Fase Tunggal 2 Kawat</li>
                                     <li>
-                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
+                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/1HYiAG4yE8isjdpJFOY8tmWn_rDTZZGNs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download Brochures</a>
                                     </li>
                                     </ul>
                                 </div>

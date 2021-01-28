@@ -13,6 +13,12 @@ export class Footers extends Component {
                                 <div className="footer-info">
                                 <h3>PT Citra Sanxing Indonesia</h3>
                                 <p>
+                                    <h4>Office I</h4>
+                                    Kedoya Elok Plaza Blok DD No. 76 <br />
+                                    Kedoya Selatan, Jakarta Barat, DKI Jakarta 11520<br /><br />        
+                                </p>
+                                <p>
+                                <h4>Office II</h4>
                                     Kedoya Elok Plaza Blok DB No. 38 <br />
                                     Kedoya Selatan, Jakarta Barat, DKI Jakarta 11520<br /><br />
                                     <strong>Phone:</strong> (021)29402132<br />

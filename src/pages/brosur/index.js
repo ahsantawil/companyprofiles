@@ -53,7 +53,7 @@ const Brosur = () => {
                                             kWh Meter Postpaid 1 phase
                                             <i className="bx bxs-quote-alt-right quote-icon-right" />
                                         </div>
-                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download</a>
+                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/1HYiAG4yE8isjdpJFOY8tmWn_rDTZZGNs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download</a>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
@@ -65,7 +65,7 @@ const Brosur = () => {
                                             kWh Meter Prepad 1 Phase
                                             <i className="bx bxs-quote-alt-right quote-icon-right" />
                                         </div>
-                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/15mOMy9IjxQ9eTDcnKx3jbE-6rd73GYgs/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download</a>
+                                        <a target={"_blank"} className="btn btn-info" href={"https://drive.google.com/file/d/1UipPnBYaFCYuglnt56H5izG6SyuBDG30/view?usp=sharing"} rel={"noopener noreferrer"}><i className="bx bxs-downvote" /> Download</a>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
